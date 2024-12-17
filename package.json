@@ -1,12 +1,12 @@
 {
-  "name": "decompiler",
+  "name": "contract-evm-bytes-decompiler",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.ts",
     "build": "tsc"
   },
-  "author": "",
+  "author": "Yemo bey",
   "license": "ISC",
   "description": "",
   "dependencies": {
