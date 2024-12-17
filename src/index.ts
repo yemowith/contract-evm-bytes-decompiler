@@ -20,14 +20,4 @@ function saveStringToFile(filePath: string, data: string): void {
   );
   const contract = new Contract(bytecode);
   saveStringToFile("solidity.sol", contract.solidify());
-  //console.log(contract.abi);
-  //console.log(contract.bytecode);
-  //console.log(contract.deploymentBytecode);
-  //console.log(contract.runtimeBytecode);
-  //console.log(contract.metadata);
-  //console.log(contract.sourceMap);
-  //console.log(contract.opcodes);
-  //console.log(contract.opcodesRuntime);
-  //console.log(contract.opcodesMetadata);
-  //console.log(contract.opcodesDeployment
 })();
